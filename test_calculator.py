@@ -43,7 +43,7 @@ class Testing(unittest.TestCase):
     #     with self.assertRaises(Exception) as context:
     #         result()
 
-    #     self.assertTrue('sorry broken' in str(context.exception))
+    #     self.assertTrue('broken' in str(context.exception))
 
     def test_7_number_greater_1000_ignore(self):
         result=11
@@ -72,6 +72,26 @@ class Testing(unittest.TestCase):
 
 if __name__=='__main__':
     unittest.main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # import calculator
 #

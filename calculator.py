@@ -32,7 +32,7 @@ class Calculator:
     #     num=int(number)
     #     if num < 0:
 
-    #         raise Exception("sorry broken")
+    #         raise Exception("broken")
 
 
     

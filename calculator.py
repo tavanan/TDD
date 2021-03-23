@@ -28,11 +28,11 @@ class Calculator:
             num2 = int(numbers[2])
             return num1+num2
 
-    # def negative_number(self,number):
-    #     num=int(number)
-    #     if num < 0:
+    def negative_number(self,number):
+        num=int(number)
+        if num < 0:
 
-    #         raise Exception("broken")
+            return ValueError("Negative occured")
 
 
     
